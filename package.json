@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cassandra-driver": "^4.6.4",
+    "prompt-sync": "^4.2.0"
+  }
+}
