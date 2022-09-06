@@ -22,11 +22,11 @@ module.exports = {
 
       client.execute(query,param, function(error, result){
         if (result.rows[0] != undefined){
-          console.log('Login efetuado com sucesso')         
+          console.log('\nLogin efetuado com sucesso')         
         }else if (error){
           console.log('Erro:', error)          
         }else{
-          console.log('Usuário não encontrado. Tente Novamente')
+          console.log('\nUsuário não encontrado. Tente Novamente')
         }})   
     },
     cadastrar:   function (email,senha) {
@@ -37,7 +37,7 @@ module.exports = {
         if (error!= undefined){
           console.log('Erro')          
         }else{
-          console.log('Cadastrado com sucesso')
+          console.log('\nUsuário cadastrado com sucesso')
         }})      
     },
 
